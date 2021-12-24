@@ -1,0 +1,104 @@
+body {
+	height: 100%;
+	width: 100%;
+	background: rgba(222, 226, 226, 0.473);
+  }
+  /* header styles */
+  .navbar-nav li {
+	padding-right: 20px;
+  }
+  .navbar-nav {
+	position: relative;
+	margin-top: 0px;
+  }
+  .navbar-nav:before,
+  .navbar-nav:after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 5px;
+	background-image: -webkit-linear-gradient(
+	  0deg,
+	  rgb(229, 36, 59) 20px,
+	  rgb(221, 166, 58) 20px,
+	  rgb(221, 166, 58) 40px,
+	  rgb(76, 159, 56) 40px,
+	  rgb(76, 159, 56) 60px,
+	  rgb(197, 25, 45) 60px,
+	  rgb(197, 25, 45) 80px,
+	  rgb(255, 58, 33) 80px,
+	  rgb(255, 58, 33) 100px,
+	  rgb(38, 189, 226) 100px,
+	  rgb(38, 189, 226) 120px,
+	  rgb(252, 195, 11) 120px,
+	  rgb(252, 195, 11) 140px,
+	  rgb(162, 25, 66) 140px,
+	  rgb(162, 25, 66) 160px,
+	  rgb(253, 105, 37) 160px,
+	  rgb(253, 105, 37) 180px,
+	  rgb(221, 19, 103) 180px,
+	  rgb(221, 19, 103) 200px,
+	  rgb(253, 157, 36) 200px,
+	  rgb(253, 157, 36) 220px,
+	  rgb(191, 139, 46) 220px,
+	  rgb(191, 139, 46) 240px,
+	  rgb(63, 126, 68) 240px,
+	  rgb(63, 126, 68) 260px,
+	  rgb(10, 151, 217) 260px,
+	  rgb(10, 151, 217) 280px,
+	  rgb(86, 192, 43) 280px,
+	  rgb(86, 192, 43) 300px,
+	  rgb(0, 104, 157) 300px,
+	  rgb(0, 104, 157) 320px,
+	  rgb(25, 72, 106) 320px,
+	  rgb(25, 72, 106) 340px
+	);
+	background-size: 340px;
+  }
+  .navbar-nav:after {
+	bottom: 0px;
+  }
+  .padding {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+  }
+  .Title {
+	font-size: 20pt;
+	font-weight: bolder;
+	font-family: Blippo, fantasy;
+  }
+  .map-section {
+	height: 500px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	  0 6px 20px 0 rgba(148, 148, 148, 1);
+	border-radius: 10px;
+  }
+  .graph-option1 {
+	color: red;
+  }
+  .graph-option2 {
+	color: green;
+  }
+  .graph-option3 {
+	color: blue;
+  }
+  .graph-option1,
+  .graph-option2,
+  .graph-option3 {
+	font-size: 6em;
+  }
+  .goals{
+	width: 100%;
+  }
+  .goals img{
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 350px;
+  }
+  #collapseExample2, #collapseExample1{
+	margin-bottom: 15px;
+  }
+  
